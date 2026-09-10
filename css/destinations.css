@@ -5,15 +5,6 @@
   margin-bottom: 24px;
 }
 
-.destination-items .item {
-    width: 312px;
-    height: 754px;
-    background-color: var(--background-primary-color);
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
 .item .img-item {
     width: 312px;
     height: 360px;
