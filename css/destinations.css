@@ -4,3 +4,51 @@
   padding: 0;
   margin-bottom: 24px;
 }
+
+.destination-items .item {
+    width: 312px;
+    height: 754px;
+    background-color: var(--background-primary-color);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.item .img-item {
+    width: 312px;
+    height: 360px;
+    margin: 0 auto;
+}
+
+.item .img-item.destination-1 {
+    background: url(../assets/img/tokyo-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.item .img-item.destination-2 {
+    background: url(../assets/img/osaka-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.item h4,
+.item p {
+    color: var(--text-primary-color);
+}
+
+.item h4 {
+    font-size: 28px;
+}
+
+.item p {
+    font-size: 20px;
+}
+
+.item .button {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.item footer {
+    margin-bottom: 40px;
+}
