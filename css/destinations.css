@@ -1,45 +1,91 @@
-.destinations .item header {
-  display: block;
-  position: static;
-  padding: 0;
-  margin-bottom: 24px;
+.destination-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
 }
 
-.item .img-item {
-    width: 312px;
-    height: 360px;
-    margin: 0 auto;
+.destinations .item .img-item {
+  width: 100%;
+  height: 368px;
+  margin: 0 auto;
 }
 
-.item .img-item.destination-1 {
-    background: url(../assets/img/tokyo-mobile.jpg) no-repeat;
-    background-size: cover;
+.destinations .item.tokyo .img-item {
+  background: url(../assets/img/tokyo-mobile.jpg) no-repeat;
+  background-size: cover;
 }
 
-.item .img-item.destination-2 {
-    background: url(../assets/img/osaka-mobile.jpg) no-repeat;
-    background-size: cover;
+.destinations .item.osaka .img-item {
+  background: url(../assets/img/osaka-mobile.jpg) no-repeat;
+  background-size: cover;
 }
 
 .item h4,
 .item p {
-    color: var(--text-primary-color);
+  color: var(--text-primary-color);
 }
 
 .item h4 {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 .item p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.item .button {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
+.destinations .button {
+  width: 100%;
 }
 
-.item footer {
-    margin-bottom: 40px;
+@media screen and (min-width: 768px) {
+  .destinations {
+    width: 648px;
+  }
+
+  .item .img-item {
+    width: 648px;
+    height: 452px;
+  }
+
+  .item.tokyo {
+    background: url(../assets/img/tokyo-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .item.osaka {
+    background: url(../assets/img/osaka-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .destinations .button {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .destinations {
+    width: 900px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinations {
+    width: 1200px;
+  }
+
+  .destinations .destination-items {
+    display: flex;
+    justify-content: center;
+  }
+
+  .destination-items .item {
+    width: 588px;
+    margin: 0 20px;
+  }
+
+  .item .img-item {
+    width: 588px;
+    height: 452px;
+  }
 }
