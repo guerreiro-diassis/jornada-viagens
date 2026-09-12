@@ -1,0 +1,40 @@
+.contact {
+  background-color: var(--background-tertiary-color);
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--text-secondary-color);
+  text-align: center;
+}
+
+.contact img {
+  width: 162px;
+  height: 40px;
+  margin: 32px 0 16px;
+}
+
+.contact .business-hours {
+  margin-bottom: 8px;
+}
+
+.contact .credits {
+  margin-bottom: 32px;
+}
+
+.contact nav {
+  display: block;
+}
+
+.contact nav .social-media-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.contact nav .social-media-container li a {
+  color: var(--text-secondary-color);
+  font-size: 28px;
+  margin-top: 16px;
+}
