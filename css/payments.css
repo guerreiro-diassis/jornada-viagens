@@ -75,7 +75,11 @@
     display: flex;
   }
 
-  .image-content {
+  .payments .container .content-text {
+    width: 360px;
+  }
+
+  .payments .container .image-content {
     width: 790px;
   }
 
