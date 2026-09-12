@@ -58,6 +58,17 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .image-gallery {
+    justify-items: center;
+  }
+
+  .image.first,
+  .image.second {
+    width: 440px;
+  }
+}
+
 @media screen and (min-width: 1440px) {
   .payments .container {
     height: 460px;
