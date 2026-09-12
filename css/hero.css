@@ -5,7 +5,7 @@
   background-size: cover;
 }
 
-.hero-1 .hero h2 {
+.hero-1 h2 {
   padding: 88px 24px;
   margin: 0;
   font-weight: var(--text-weight);
@@ -20,7 +20,7 @@
     background: url(../assets/img/hero-tablet.jpg) no-repeat;
     background-size: cover;
 
-    .hero-1 .hero h2 {
+    .hero-1 h2 {
       padding: 88px 60px;
       font-size: 32px;
     }
