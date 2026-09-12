@@ -1,4 +1,4 @@
-.image-content {
+.image-gallery {
   width: 312px;
   height: 460px;
   display: grid;
@@ -17,19 +17,19 @@
   height: 254px;
 }
 
-.image.bag {
+.image.first {
   background: url(../assets/img/bag-mobile.jpg) no-repeat;
   background-size: cover;
   grid-area: bag;
 }
 
-.image.passport {
+.image.second {
   background: url(../assets/img/passport-mobile.jpg) no-repeat;
   background-size: cover;
   grid-area: passport;
 }
 
-.image.people {
+.image.third {
   width: 100%;
   height: 182px;
   background: url(../assets/img/people-mobile.jpg) no-repeat;
