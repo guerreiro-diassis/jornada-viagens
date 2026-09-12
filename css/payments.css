@@ -1,0 +1,80 @@
+.image-content {
+  width: 312px;
+  height: 460px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "bag passport"
+    "people people";
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.image.bag,
+.image.passport {
+  width: 144px;
+  height: 254px;
+}
+
+.image.bag {
+  background: url(../assets/img/bag-mobile.jpg) no-repeat;
+  background-size: cover;
+  grid-area: bag;
+}
+
+.image.passport {
+  background: url(../assets/img/passport-mobile.jpg) no-repeat;
+  background-size: cover;
+  grid-area: passport;
+}
+
+.image.people {
+  width: 100%;
+  height: 182px;
+  background: url(../assets/img/people-mobile.jpg) no-repeat;
+  background-size: cover;
+  grid-area: people;
+}
+
+@media screen and (min-width: 768px) {
+  .image-content {
+    height: 460px;
+  }
+
+  .image.bag,
+  .image.passport {
+    width: 312px;
+  }
+
+  .image.bag {
+    background: url(../assets/img/bag-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .image.passport {
+    background: url(../assets/img/passport-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .image.people {
+    background: url(../assets/img/people-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .container {
+    height: 460px;
+    display: flex;
+  }
+
+  .image-content {
+    width: 790px;
+  }
+
+  .image.bag,
+  .image.passport {
+    width: 384px;
+  }
+}
