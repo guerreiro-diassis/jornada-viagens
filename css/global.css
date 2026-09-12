@@ -50,7 +50,8 @@ section {
   margin: 0 auto 88px;
 }
 
-section.hero {
+section.hero-1,
+section.hero-2 {
   width: 100%;
   margin: 0;
 }
