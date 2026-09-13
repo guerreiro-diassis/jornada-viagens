@@ -16,9 +16,9 @@
 .hero-tp .section-title {
   position: relative;
   z-index: 2;
-  width: 92%;
-  box-sizing: border-box;
-  padding: 65px 24px;
+  width: 312px;
+  height: 330px;
+  margin: 65px 24px;
   color: var(--text-secondary-color);
 }
 
@@ -36,3 +36,22 @@
   font-size: 20px;
   line-height: 32px;
 }
+
+@media screen and (min-width: 768px) {
+.hero-tp .hero-img {
+  background: url(../assets/img/hero-tp-tablet.jpg) no-repeat;
+  background-size: cover;
+ }
+
+.hero-tp .section-title {
+  width: 579px;
+  height: 303px;
+  margin: 209px 69px 108px 120px;
+}
+
+.hero-tp .section-title p {
+  font-size: 32px;
+  line-height: 48px; 
+}
+}
+
