@@ -52,7 +52,8 @@ section {
 
 section.hero-1,
 section.hero-2,
-section .hero-tp {
+section.hero-tp,
+section.hero-bottom {
   width: 100%;
   margin: 0;
 }
