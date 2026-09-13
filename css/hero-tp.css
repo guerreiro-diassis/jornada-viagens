@@ -1,0 +1,38 @@
+.hero-tp {
+  position: relative;
+  min-height: 460px; 
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-tp .hero-img {
+  position: absolute;
+  inset: 0;
+  background: url(../assets/img/hero-tp-mobile.jpg) no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.hero-tp .section-title {
+  position: relative;
+  z-index: 2;
+  width: 92%;
+  box-sizing: border-box;
+  padding: 65px 24px;
+  color: var(--text-secondary-color);
+}
+
+.hero-tp .section-title h2 {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  text-align: start;
+}
+
+.hero-tp .section-title hr {
+  margin: 16px auto 24px 0;
+}
+
+.hero-tp .section-title p {
+  font-size: 20px;
+  line-height: 32px;
+}

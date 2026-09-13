@@ -51,7 +51,8 @@ section {
 }
 
 section.hero-1,
-section.hero-2 {
+section.hero-2,
+section .hero-tp {
   width: 100%;
   margin: 0;
 }
