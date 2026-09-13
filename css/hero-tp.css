@@ -55,3 +55,13 @@
 }
 }
 
+@media screen and (min-width: 1440px) {
+.hero-tp .hero-img {
+  background: url(../assets/img/hero-tp-desktop.jpg) no-repeat;
+  background-size: cover;
+ }
+
+.hero-tp .section-title {
+  margin: 158px 741px 158px 120px;
+}
+}
